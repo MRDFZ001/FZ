@@ -1,9 +1,9 @@
 ####################################
 # 创建者：MRDFZ
 # 客户端：Clash
-# 创建时间：2023-06-12 17:21:31
+# 创建时间：2023-06-12 17:40:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：114
+# 节点数量：122
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,9 +21,9 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"新消息看群内","type":"vmess","server":"s2.zwtg888.com","port":383,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"s2.zwtg888.com"}}}
+  - {"name":"V2新包公众号已更","type":"vmess","server":"s3.zwtg888.com","port":35842,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"s3.zwtg888.com"}}}
+  - {"name":"新通知请关注群","type":"vmess","server":"s2.zwtg888.com","port":383,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"s2.zwtg888.com"}}}
   - {"name":"🇯🇵_日本_1","type":"vmess","server":"a1.zwtg888.com","port":363,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"a1.zwtg888.com"}}}
-  - {"name":"V2新包已上传之前出问题了","type":"vmess","server":"s3.zwtg888.com","port":35842,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"s3.zwtg888.com"}}}
   - {"name":"🇸🇬_新加坡_1","type":"vmess","server":"a2.zwtg888.com","port":383,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"www.minecraft.com"}}}
   - {"name":"🇰🇷_韩国_1","type":"vmess","server":"a3.zwtg888.com","port":383,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"a3.zwtg888.com"}}}
   - {"name":"🇺🇸_美国_1","type":"vmess","server":"11.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top","port":2082,"cipher":"auto","uuid":"52672366-6993-4d21-8f1a-d102b2b87744","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top"}}}
@@ -59,7 +59,7 @@ proxies:
   - {"name":"🇭🇺_匈牙利","type":"vmess","server":"5.101.217.4","port":443,"cipher":"auto","uuid":"28db139c-aff0-4ed8-80f5-3e747c4c737c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"xx2xxl.ddns.net"}}}
   - {"name":"🇫🇷_法国_2","type":"vmess","server":"92.223.55.4","port":443,"cipher":"auto","uuid":"4dd7ef63-ca89-4b68-c0e3-ef2cd4ecabda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"chelciii.ddns.net"}}}
   - {"name":"🇷🇺_俄罗斯联邦_9","type":"vmess","server":"92.223.43.13","port":443,"cipher":"auto","uuid":"76f77d6e-8839-44b9-9440-2a72457adce9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"zapriuzapri.ddns.net"}}}
-  - {"name":"🇳🇱_荷兰","type":"vmess","server":"93.123.17.159","port":443,"cipher":"auto","uuid":"4dd7ef63-ca89-4b68-c0e3-ef2cd4ecabda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"chelciii.ddns.net"}}}
+  - {"name":"🇳🇱_荷兰_1","type":"vmess","server":"93.123.17.159","port":443,"cipher":"auto","uuid":"4dd7ef63-ca89-4b68-c0e3-ef2cd4ecabda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"chelciii.ddns.net"}}}
   - {"name":"🇺🇸_美国_9","type":"vmess","server":"a9.zwtg888.com","port":2053,"cipher":"auto","uuid":"d5b58029-0abc-31a1-a22a-89b8669ee0ba","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2ray","headers":{"host":"a9.zwtg888.com"}}}
   - {"name":"🇺🇸_美国_10","type":"vmess","server":"92.223.107.57","port":443,"cipher":"auto","uuid":"fa773763-0a31-4ee0-9494-141e7ec50eef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"pepsiii.ddns.net"}}}
   - {"name":"🇺🇦_乌克兰","type":"vmess","server":"79.133.108.13","port":443,"cipher":"auto","uuid":"336ae92f-b745-40dc-cc4d-01e8313a5d51","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"host":"vizooooo.ddns.net"}}}
@@ -135,15 +135,23 @@ proxies:
   - {"name":"🇯🇵_日本_11","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"af0dc990-b588-47df-a278-8bc3186752a4","sni":"us3.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_日本_12","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"af0dc990-b588-47df-a278-8bc3186752a4","sni":"us4.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_日本_13","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"af0dc990-b588-47df-a278-8bc3186752a4","sni":"jp1.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_美国_23","type":"vmess","server":"137.175.3.237","port":53042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_美国_24","type":"vmess","server":"107.167.26.53","port":54092,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_美国_25","type":"vmess","server":"107.167.29.145","port":41092,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_美国_26","type":"vmess","server":"198.2.217.85","port":51002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_美国_27","type":"vmess","server":"23.224.11.150","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_新加坡_6","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
+  - {"name":"🇫🇷_法国_3","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","protocol-param":"None"}
+  - {"name":"🇳🇱_荷兰_2","type":"vmess","server":"45.153.203.83","port":41632,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -179,7 +187,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -255,15 +263,23 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -299,7 +315,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -375,15 +391,23 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -419,7 +443,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -495,14 +519,22 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -538,7 +570,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -614,14 +646,22 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -657,7 +697,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -733,14 +773,22 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -776,7 +824,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -852,6 +900,14 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -874,9 +930,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新消息看群内
+      - V2新包公众号已更
+      - 新通知请关注群
       - 🇯🇵_日本_1
-      - V2新包已上传之前出问题了
       - 🇸🇬_新加坡_1
       - 🇰🇷_韩国_1
       - 🇺🇸_美国_1
@@ -912,7 +968,7 @@ proxy-groups:
       - 🇭🇺_匈牙利
       - 🇫🇷_法国_2
       - 🇷🇺_俄罗斯联邦_9
-      - 🇳🇱_荷兰
+      - 🇳🇱_荷兰_1
       - 🇺🇸_美国_9
       - 🇺🇸_美国_10
       - 🇺🇦_乌克兰
@@ -988,6 +1044,14 @@ proxy-groups:
       - 🇯🇵_日本_11
       - 🇯🇵_日本_12
       - 🇯🇵_日本_13
+      - 🇺🇸_美国_23
+      - 🇺🇸_美国_24
+      - 🇺🇸_美国_25
+      - 🇺🇸_美国_26
+      - 🇺🇸_美国_27
+      - 🇸🇬_新加坡_6
+      - 🇫🇷_法国_3
+      - 🇳🇱_荷兰_2
 
 rules:
 # 本地/局域网地址
